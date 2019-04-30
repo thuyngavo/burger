@@ -60,9 +60,7 @@ $(function() {
         $.ajax({
             type: "DELETE",
             url: "/api/burgers/" + id
-        }).then(function (){
-            // Reload the page to get the updated burger list.
-            location.reload()
-        });
+        // Reload the page to get the updated burger list.
+        }).then(location.reload());
     });
 });
