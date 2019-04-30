@@ -1,0 +1,55 @@
+body{
+    background-image: url("/assets/images/fastfoodbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+}
+
+.jumbotron {
+    background-image: url("/assets/images/animesandwich.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    max-height: 100%;
+    margin-top: 10px;
+    opacity: 0.9;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* .jumbotron {
+    font-family: 'Fredoka One', cursive;
+} */
+
+#newburger {
+    border-radius: 15px;
+}
+
+#color-override {
+    color: black;
+}
+
+#lefthead {
+    background-color: #ecae51;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    opacity: 0.9;
+    font-family: 'Fredoka One', cursive;
+}
+
+#eatbutton, #trashbutton {
+    float: right;
+}
+
+#righthead {
+    background-color: #e06b6b;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    opacity: 0.9;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* .burger_name{
+    font-family: 'Fredoka One', cursive;
+} */
