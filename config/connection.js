@@ -14,8 +14,8 @@ var mysql = require("mysql");
 //   database: "burgers_db"
 // });
 
-if (process.env.JAWDB_URL){
-  connection = sql.createConnection(process.env.JAWDB_URL);
+if (process.env.JAWSDB_URL){
+  connection = sql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
     host: "localhost",
